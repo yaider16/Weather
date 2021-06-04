@@ -1,0 +1,114 @@
+body{
+	background-color: #2f5d62;
+	color: #1c1c1c;
+	font-family: 'Secular One', sans-serif;
+}
+
+#container{
+	background-color: #5e8b7e;
+	position: absolute;
+	width: 70%;	
+	top: 7rem;
+	left: 7rem;
+	border-radius: 15px;
+}
+
+
+.one{
+	background-color: #dfeeea;
+	display: flex;
+	justify-content: space-around;
+	align-items: baseline;
+	position: absolute;
+	top: 1rem;
+	left: 10rem;
+	border-radius: 15px;
+	cursor: alias;
+	width: 200px;
+}
+.two{
+	background-color: #dfeeea;
+	display: flex;
+	justify-content: space-around;
+	align-items: baseline;
+	position: absolute;
+	top: 6rem;
+	left: 10rem;
+	border-radius: 15px;
+	cursor: alias;
+	width: 200px;
+}
+
+.three{
+	background-color: #dfeeea;
+	display: flex;
+	justify-content: space-around;
+	align-items: baseline;
+	position: absolute;
+	top: 11rem;
+	left: 10rem;
+	border-radius: 15px;
+	cursor: alias;
+	width: 200px;
+}
+
+.four{
+	background-color: #dfeeea;
+	display: flex;
+	justify-content: space-around;
+	align-items: baseline;
+	position: absolute;
+	top: 16rem;
+	left: 10rem;
+	border-radius: 15px;
+	cursor: alias;
+	width: 200px;
+}
+
+.five{
+	background-color: #dfeeea;
+	display: flex;
+	justify-content: space-around;
+	align-items: baseline;
+	position: absolute;
+	top: 21rem;
+	left: 10rem;
+	border-radius: 15px;
+	cursor: alias;
+	width: 200px;
+}
+
+.six{
+	background-color: #dfeeea;
+	display: flex;
+	justify-content: space-around;
+	align-items: baseline;
+	position: absolute;
+	top: 26rem;
+	left: 10rem;
+	border-radius: 15px;
+	cursor: alias;
+	width: 200px;
+}
+
+label{
+	font-size: 4rem;
+	font-family: 'Nosifer', cursive;
+	color: #a7c4bc;
+	position: absolute;
+	left: 15rem;
+	top: 2rem;
+}
+
+.nav{
+	position: absolute;
+}
+
+a{
+	text-decoration: none;
+	color: #212529;
+}
+
+.nav i{
+	font-size: 1.5rem;
+}
