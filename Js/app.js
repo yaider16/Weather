@@ -3,7 +3,7 @@ const API_KEY = '7a17c632d68edec938220bc3fda64011';
 
 let log = function (position) {
 	const {latitude, longitude} = position.coords
-	fetch(`http://api.openweathermap.org/data/2.5/weather?units=metric&lat=${latitude}&lon=${longitude}&appid=${API_KEY}`)
+	fetch(`https://api.openweathermap.org/data/2.5/weather?units=metric&lat=${latitude}&lon=${longitude}&appid=${API_KEY}`)
 		.then(response => response.json())
 		.then(data => setWeatherData(data))
 };
@@ -25,11 +25,18 @@ const setWeatherData = data => {
 		}else{
 			document.getElementById(key).textContent = weatherData[key];	
 		}
-		
-
 	});
 
+	limpiar()
 };
+
+const limpiar = () =>{
+	const modal = document.getElementById('modal');
+	const loader = document.getElementById('loader');
+	loader.style.display = 'none';
+	modal.style.display = 'inherit'
+
+}
 
 const date = () =>{
 	let date = new Date();

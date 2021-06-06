@@ -12,66 +12,70 @@
 	<link href="https://fonts.googleapis.com/css2?family=Nosifer&display=swap" rel="stylesheet">
 	<script src="https://kit.fontawesome.com/44c4022be7.js" crossorigin="anonymous"></script>
 </head>
-<body onload="onLoad()">
-	<label>Yai Weater</label>
-	<div id="container">
-		
-		<div class="one">
-			<h4 id="loca-h4">Localización:</h4>
-			<div id="location"></div>
+<body onload="onLoad()" id="body">
+	<div id="modal">
+		<label>Yai Weater</label>
+		<div id="container">
+			
+			<div class="one">
+				<h4 id="loca-h4">Localización:</h4>
+				<div id="location"></div>
+			</div>
+
+			<div class="two">
+				<h4>Estado:</h4>
+				<div id="description"></div>
+			</div>
+
+			<div class="three">
+				<h4>Humedad:</h4>
+				<div id="humidity"></div>
+			</div>
+
+			<div class="four">
+				<h4>Presion:</h4>
+				<div id="pressure"></div>
+			</div>
+
+			<div class="five">
+				<h4>Temperatura:</h4>
+				<div id="temperature">Cº</div>
+			</div>
+
+			<div class="six">
+				<h4>Fecha:</h4>
+				<div id="date"></div>
+			</div>
 		</div>
 
-		<div class="two">
-			<h4>Estado:</h4>
-			<div id="description"></div>
-		</div>
+		<div class="nav">
+			<a href="facebook.com/yaider16">
+				<i class="fab fa-facebook"></i>
+			</a>
+			
+			<a href="https://www.youtube.com/channel/UCZgDuxb-6xYraA_RdxTLa9g">
+				<i class="fab fa-youtube"></i>
+			</a>
+			
+			<a href="twitter.com/yaider16">
+				<i class="fab fa-twitter-square"></i>
+			</a>
 
-		<div class="three">
-			<h4>Humedad:</h4>
-			<div id="humidity"></div>
-		</div>
+			<a href="https://www.instagram.com/yaider1216/">
+				<i class="fab fa-instagram"></i>
+			</a>
 
-		<div class="four">
-			<h4>Presion:</h4>
-			<div id="pressure"></div>
-		</div>
+			<a href="https://es.quora.com/profile/Yaider-Becerra">
+				<i class="fab fa-quora"></i>
+			</a>
 
-		<div class="five">
-			<h4>Temperatura:</h4>
-			<div id="temperature">Cº</div>
-		</div>
-
-		<div class="six">
-			<h4>Fecha:</h4>
-			<div id="date"></div>
+			<a href="https://github.com/yaider16">
+				<i class="fab fa-github"></i>
+			</a>
 		</div>
 	</div>
-
-	<div class="nav">
-		<a href="facebook.com/yaider16">
-			<i class="fab fa-facebook"></i>
-		</a>
-		
-		<a href="https://www.youtube.com/channel/UCZgDuxb-6xYraA_RdxTLa9g">
-			<i class="fab fa-youtube"></i>
-		</a>
-		
-		<a href="twitter.com/yaider16">
-			<i class="fab fa-twitter-square"></i>
-		</a>
-
-		<a href="https://www.instagram.com/yaider1216/">
-			<i class="fab fa-instagram"></i>
-		</a>
-
-		<a href="https://es.quora.com/profile/Yaider-Becerra">
-			<i class="fab fa-quora"></i>
-		</a>
-
-		<a href="https://github.com/yaider16">
-			<i class="fab fa-github"></i>
-		</a>
-	</div>
+	<div class="loader" id="loader">Loading...</div>
 	<script type="text/javascript" src="Js/app.js"></script>
 </body>
+
 </html>
