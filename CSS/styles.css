@@ -1,11 +1,14 @@
 body{
-	background-color: #2f5d62;
 	color: #1c1c1c;
 	font-family: 'Secular One', sans-serif;
+	width: 100vw;
+	height:100vh;
+	background: linear-gradient(to right, #a1ffce, #faffd1);
 }
 
+
+
 #container{
-	background-color: #5e8b7e;
 	position: absolute;
 	width: 70%;	
 	top: 7rem;
@@ -15,9 +18,9 @@ body{
 
 
 .one{
-	background-color: #dfeeea;
+	background-color: #faffd1;
 	display: flex;
-	justify-content: space-around;
+	justify-content: center;
 	align-items: baseline;
 	position: absolute;
 	top: 1rem;
@@ -26,10 +29,14 @@ body{
 	cursor: alias;
 	width: 200px;
 }
+.one h4{
+	margin-right: 10px;
+}
+
 .two{
-	background-color: #dfeeea;
+	background-color: #faffd1;
 	display: flex;
-	justify-content: space-around;
+	justify-content: center;
 	align-items: baseline;
 	position: absolute;
 	top: 6rem;
@@ -38,11 +45,13 @@ body{
 	cursor: alias;
 	width: 200px;
 }
-
+.two h4{
+	margin-right: 10px;
+}
 .three{
-	background-color: #dfeeea;
+	background-color: #faffd1;
 	display: flex;
-	justify-content: space-around;
+	justify-content: center;
 	align-items: baseline;
 	position: absolute;
 	top: 11rem;
@@ -51,11 +60,13 @@ body{
 	cursor: alias;
 	width: 200px;
 }
-
+.three h4{
+	margin-right: 10px;
+}
 .four{
-	background-color: #dfeeea;
+	background-color: #faffd1;
 	display: flex;
-	justify-content: space-around;
+	justify-content: center;
 	align-items: baseline;
 	position: absolute;
 	top: 16rem;
@@ -64,11 +75,13 @@ body{
 	cursor: alias;
 	width: 200px;
 }
-
+.four h4{
+	margin-right: 10px;
+}
 .five{
-	background-color: #dfeeea;
+	background-color: #faffd1;
 	display: flex;
-	justify-content: space-around;
+	justify-content: center;
 	align-items: baseline;
 	position: absolute;
 	top: 21rem;
@@ -77,11 +90,13 @@ body{
 	cursor: alias;
 	width: 200px;
 }
-
+.five h4{
+	margin-right: 10px;
+}
 .six{
-	background-color: #dfeeea;
+	background-color: #faffd1;
 	display: flex;
-	justify-content: space-around;
+	justify-content: center;
 	align-items: baseline;
 	position: absolute;
 	top: 26rem;
@@ -90,11 +105,13 @@ body{
 	cursor: alias;
 	width: 200px;
 }
-
+.six h4{
+	margin-right: 10px;
+}
 label{
 	font-size: 4rem;
 	font-family: 'Nosifer', cursive;
-	color: #a7c4bc;
+	color: #2c2c2c;
 	position: absolute;
 	left: 15rem;
 	top: 2rem;
@@ -102,11 +119,18 @@ label{
 
 .nav{
 	position: absolute;
+	display: flex;
+	top: 6rem;
+	left: 30rem;
+	width: 10rem;
+	flex-direction: column;
+	align-items: flex-start;
 }
 
 a{
 	text-decoration: none;
 	color: #212529;
+	margin-top: 54px;
 }
 
 .nav i{

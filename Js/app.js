@@ -20,14 +20,20 @@ const setWeatherData = data => {
 	}
 
 	Object.keys(weatherData).forEach(key => {
-		document.getElementById(key).textContent = weatherData[key];
+		if (document.getElementById(key).textContent == 'Cº') {
+			document.getElementById(key).textContent = weatherData[key],'Cº';	
+		}else{
+			document.getElementById(key).textContent = weatherData[key];	
+		}
+		
+
 	});
 
 };
 
 const date = () =>{
 	let date = new Date();
-	return `${date.getDate()}-${date.getMonth()}-${date.getFullYear()}`;
+	return `${date.getDate()}/${date.getMonth()}/${date.getFullYear()}`;
 }
 
 const onLoad = function(){
